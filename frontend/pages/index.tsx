@@ -1,9 +1,9 @@
-import React from "react";
+import React, {ReactElement} from "react";
 import Head from "next/head";
-import {Left} from "../components/home";
+import {Left, Right} from "../components/home";
 import {Grid} from "../components/home";
 
-export default () => (
+export default (): ReactElement => (
 	<>
 		<Head>
 			<title>Alexandre Senges</title>
@@ -11,7 +11,7 @@ export default () => (
 		</Head>
 		<Grid>
 			<Left/>
-			<Left/>
+			<Right/>
 		</Grid>
 	</>
 );

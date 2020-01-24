@@ -5,6 +5,5 @@ export default Styled.div`
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 100%;
 	width: 100%;
 `;

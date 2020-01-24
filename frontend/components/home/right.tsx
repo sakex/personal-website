@@ -4,8 +4,8 @@ import {Icon} from "../styled/home";
 
 const Grid = Styled.div`
 	display: grid;
-	grid-template-rows: 50% 50%;
-	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 1fr;
 	width: 100%;
 	height: 100%;
 	background: linear-gradient(rgba(200, 200, 200, .3), rgba(200, 200, 200, .5)), url("/dents.jpg");
@@ -13,6 +13,7 @@ const Grid = Styled.div`
 	background-size: cover;
 	background-position: center;
 	align-items: center;
+	justify-items: center;
 `;
 
 export default () => (

@@ -12,9 +12,10 @@ const Anchor = Styled.a`
 	width: 100%;
 `;
 
-const Container = Styled.span`
-	width: calc(100% - 40px);
+const Container = Styled.div`
 	position: relative;
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
 	padding: 20px;
 `;
 

@@ -15,7 +15,6 @@ const Anchor = Styled.a`
 const Container = Styled.div`
 	position: relative;
 	width: calc(100% - 40px);
-	height: calc(100% - 40px);
 	padding: 20px;
 `;
 
